@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="comLuma.utilities.Reporting"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:\Users\dennm\repos\LumaSelenium">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+<!--            <class name="comLuma.testCases.TC_LoginTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="test_01_ValidLogin"/>-->
+<!--                    <exclude name="test_02_invalidData"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="comLuma.testCases.TC_LoginDDT">
+
+            </class>
+        </classes>
+    </test>
+</suite>

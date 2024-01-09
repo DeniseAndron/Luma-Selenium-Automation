@@ -1,0 +1,8 @@
+comLuma\utilities\WaitUtils.class
+comLuma\utilities\Reporting.class
+comLuma\testCases\TC_LoginTest.class
+comLuma\utilities\ReadConfig.class
+comLuma\testCases\BaseClass.class
+comLuma\testCases\TC_LoginDDT.class
+comLuma\pageObjects\LoginPage.class
+comLuma\utilities\XLUtils.class
